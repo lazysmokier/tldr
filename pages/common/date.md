@@ -26,3 +26,7 @@
 - Display the current date using the RFC-3339 format (`YYYY-MM-DD hh:mm:ss TZ`):
 
 `date --rfc-3339=s`
+
+- Calculate a date relative to the specified one (more <https://www.gnu.org/software/coreutils/manual/html_node/Relative-items-in-date-strings.html>):
+
+`date +%Y-%m-%d -d '2021-11-27 +1 month -1 week +2 days'`
